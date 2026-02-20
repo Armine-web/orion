@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f2eadf;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease;
+  outline: none;
+  font-family: "Lora", serif;
+}
+
+.hero-a:hover {
+  color: #222;
+  background-color: #fff;
+}
+
+a:hover {
+  outline: none;
+}
+
+.animate {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.animate.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 600;
+  color: #222;
+  font-family: "Lora", serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: #333;
+  font-weight: 700;
+  font-family: "Lora", serif;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #555;
+  font-weight: 600;
+  font-family: "Lora", serif;
+}
+
+p {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  max-width: 80%;
+  color: #444;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-image: url("img/yard.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 1200px;
+  margin-top: 1.5rem;
+  line-height: 1.5;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.hero-a {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 12px 50px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 17px;
+  border: 3px solid #fff;
+  transition: background-color 0.3s ease;
+}
+
+.hrThin {
+  border: none;
+  border-top: 4px solid #c5bfb8;
+  margin: 0;
+}
+
+.hrThin1 {
+  border: none;
+  border-top: 2px solid #c5bfb8;
+  margin: 40px 0 0 0;
+}
+
+.hrFat {
+  border: none;
+  border-top: 4px solid #c5bfb8;
+  margin: 20px 0;
+}
+
+.banner {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 20px;
+}
+
+/* ******* */
+.rooms {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.side-lines {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 70%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.sideLine {
+  width: 4px;
+  height: 100%;
+  background-color: #c5bfb8;
+  transform-origin: top;
+  transform: scaleY(0);
+  will-change: transform;
+  opacity: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.box {
+  max-width: 900px;
+  margin-bottom: 2.5rem;
+  padding: 20px;
+  background-color: #f2eadf;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.box img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.pavilion-title {
+  max-width: 80%;
+  margin-bottom: 2rem;
+}
+
+.pavilion-paragraph {
+  max-width: 80%;
+}
+
+.sightworthy {
+  padding: 0 10px;
+}
+
+.bg-footer {
+  background: #c5bfb8;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.contacts-header {
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  gap: 40px;
+  color: #333;
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.contacts-header a {
+  font-size: 1.4rem;
+}
+
+.contacts-header h2 {
+  font-size: 2.5rem;
+}
+
+.contacts-header a {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contacts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  align-items: start;
+}
+
+.contact-column h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.contact-column p,
+.contact-column a {
+  font-size: 1.2rem;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.contact-column a:hover {
+  color: #000;
+}
+
+.social-links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #555;
+}
+
+.contact-column i {
+  font-size: 1.6rem;
+}
+
+.contact-column a {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.fa-phone-alt {
+  transform: rotate(90deg);
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .contacts-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-column {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+    max-width: 900px;
+  }
+
+  .hero {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .hero-p {
+    font-size: 16px;
+  }
+
+  .hero-a {
+    padding: 10px 30px;
+    font-size: 1.1rem;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  .side-lines {
+    display: none;
+  }
+
+  .contacts-header {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .contact-column h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-column p,
+  .contact-column a {
+    font-size: 1rem;
+  }
+
+  .contacts-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner {
+    font-size: 2.5rem;
+  }
+
+  .contacts-header {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contacts-header h2 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+
+  .iconLabel {
+    display: none;
+  }
+}
