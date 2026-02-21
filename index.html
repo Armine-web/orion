@@ -68,23 +68,36 @@
   <body>
     <section class="hero animate">
       <div class="container">
-        <h1 class="animate">Օրիոն հյուրատուն</h1>
-        <p class="hero-p animate">
+        <div class="lang-container">
+          <div class="lang-switcher">
+            <span data-lang="hy" class="lang active">Հայ</span>
+            <span>/</span>
+            <span data-lang="en" class="lang">Eng</span>
+            <span>/</span>
+            <span data-lang="ru" class="lang">Ру</span>
+          </div>
+        </div>
+        <h1 class="animate hero-title" data-i18n="hero.title">
+          Օրիոն հյուրատուն
+        </h1>
+        <p class="hero-p animate" data-i18n="hero.text1">
           Բարի գալուստ Օրիոն հյուրատուն, որը գտնվում է Լոռու մարզի գեղեցիկ Դսեղ
           գյուղում։ Մենք առաջարկում ենք հարմարավետ և ջերմ միջավայր՝ ձեր հանգիստը
           հաճելի դարձնելու համար։
         </p>
-        <p class="hero-p animate">
+        <p class="hero-p animate" data-i18n="hero.text2">
           Մեր հյուրատունը հագեցած է բոլոր անհրաժեշտ հարմարություններով՝
           ապահովելու ձեր հարմարավետությունը և հանգստությունը։ Գտնվում ենք բնական
           գեղեցկության գրկում, որտեղ կարող եք վայելել խաղաղություն և
           հանգստություն։
         </p>
-        <p class="hero-p animate">
+        <p class="hero-p animate" data-i18n="hero.text3">
           Կապվեք մեզ հետ՝ ձեր հաջորդ հանգստի համար և փորձեք Օրիոն հյուրատան
           հյուրընկալությունը։
         </p>
-        <a class="hero-a animate" href="#contact">Կապվեք մեզ հետ</a>
+        <a class="hero-a animate" data-i18n="hero.contact" href="#contact"
+          >Կապվեք մեզ հետ</a
+        >
       </div>
     </section>
 
@@ -129,18 +142,18 @@
       </div>
 
       <hr class="hrThin animate" />
-      <h2 class="banner animate">Օրիոն Հյուրատուն</h2>
+      <h2 class="banner animate" data-i18n="hero.title">Օրիոն Հյուրատուն</h2>
       <hr class="hrThin1 animate" />
       <hr class="hrFat animate" />
 
       <div class="container">
-        <h2 class="animate">Սենյակներ</h2>
+        <h2 class="animate" data-i18n="hero.title">Սենյակներ</h2>
 
-        <p class="animate">
+        <p class="animate" data-i18n="rooms.description1">
           Հարմարավետ և լուսավոր սենյակներ՝ համալրված բոլոր անհրաժեշտ
-          հարմարություններով՝ հանգստի և արդյունավետ աշխատանքային այցերի համար։ս
+          հարմարություններով՝ հանգստի և արդյունավետ աշխատանքային այցերի համար։
         </p>
-        <p class="animate">
+        <p class="animate" data-i18n="rooms.description2">
           Պարզ ու ճաշակով կահավորումը, արագ Wi-Fi-ն, ջեռուցման համակարգը և
           գեղեցիկ տեսարանը ստեղծում են հարմար միջավայր՝ ձեր հանգիստն առավել
           հաճելի և արդյունավետ դարձնելու համար։
@@ -148,14 +161,20 @@
         <div class="wrapper">
           <div class="box animate">
             <img src="img/bedroom2.jpeg" alt="bedroom" />
-            <h3 class="animate">Հարմարավետ ընտանեկան սենյակ</h3>
+            <h3 class="animate" data-i18n="rooms.familyRoom">
+              Հարմարավետ ընտանեկան սենյակ
+            </h3>
           </div>
           <div class="box animate">
             <img src="img/bedroom.jpeg" alt="bedroom" />
-            <h3 class="animate">Հարմարավետ սենյակ 3 հոգու համար</h3>
+            <h3 class="animate" data-i18n="rooms.tripleRoom">
+              Հարմարավետ սենյակ 3 հոգու համար
+            </h3>
           </div>
         </div>
-        <h3>Խոհանոց բոլոր հարմարություններով</h3>
+        <h3 class="animate" data-i18n="rooms.kitchen">
+          Խոհանոց բոլոր հարմարություններով
+        </h3>
         <div class="wrapper">
           <div class="box animate">
             <img src="img/kitchen.jpeg" alt="kitchen" />
@@ -164,7 +183,7 @@
             <img src="img/kitchen2.jpeg" alt="kitchen" />
           </div>
         </div>
-        <h3>Սանգանգույց</h3>
+        <h3 class="animate" data-i18n="rooms.bathroom">Սանհանգույց</h3>
         <div class="wrapper">
           <div class="box animate">
             <img src="img/bathroom.jpeg" alt="bathroom" />
@@ -173,35 +192,81 @@
             <img src="img/toilet.jpeg" alt="toilet" />
           </div>
         </div>
-        <h3 class="pavilion-title animate">Ընդարձակ բակ փակ տաղավարով</h3>
-        <p class="pavilion-paragraph animate">
+        <h3 class="pavilion-title animate" data-i18n="pavilion.title">
+          Ընդարձակ բակ փակ տաղավարով
+        </h3>
+        <p class="pavilion-paragraph animate" data-i18n="pavilion.text1">
           Ընդարձակ բակը և հարմարավետ տաղավարը իդեալական ընտրություն են ինչպես
           փոքր, այնպես էլ 50 և ավելի հյուրերով միջոցառումների համար՝ ապահովելով
           հաճելի մթնոլորտ և հիշարժան պահեր ձեր սիրելիների հետ։
         </p>
-        <p class="pavilion-paragraph animate">
+        <p class="pavilion-paragraph animate" data-i18n="pavilion.text2">
           Բակի տարածքում կան նստարաններ և սեղաններ, որտեղ կարող եք վայելել
           ընթրիք կամ պարզապես հանգստանալ։ Տաղավարը ապահովում է պաշտպանություն
           արևի և անձրևի դեմ, ինչը թույլ է տալիս ձեզ վայելել բացօթյա միջավայրը՝
           անկախ եղանակից։
         </p>
 
-        <div class="wrapper">
+        <p class="pavilion-paragraph animate" data-i18n="pavilion.text3">
+          Համեղ ուտեստները միավորում են մարդկանց մեկ սեղանի շուրջ, ստեղծում
+          ուրախ մթնոլորտ և հիշվող պահեր։
+        </p>
+
+        <div class="wrapper wrapper-pavilion">
           <div class="box animate">
-            <img src="img/pavilion.jpeg" alt="yard" />
+            <img src="img/eting2.jpg" alt="yard" />
+          </div>
+          <div class="box animate">
+            <img src="img/etting4.jpg" alt="yard2" />
+          </div>
+          <div class="box animate">
+            <img src="img/etting5.jpg" alt="yard2" />
+          </div>
+          <div class="box animate">
+            <img src="img/etting3.jpg" alt="yard2" />
+          </div>
+          <div class="box animate">
+            <img src="img/yard4.jpg" alt="yard2" />
+          </div>
+          <div class="box animate">
+            <img src="img/pavilion2.jpeg" alt="yard2" />
+          </div>
+          <div class="box animate">
+            <img src="img/rest3.jpg" alt="yard2" />
+          </div>
+          <div class="box animate">
+            <img src="img/yard2.jpg" alt="yard2" />
+          </div>
+          <div class="box animate">
+            <img src="img/rest.jpg" alt="yard2" />
           </div>
           <div class="box animate">
             <img src="img/yard2.jpeg" alt="yard2" />
           </div>
           <div class="box animate">
-            <img src="img/pavilion2.jpeg" alt="yard2" />
+            <img src="img/yard3.jpg" alt="yard2" />
+          </div>
+          <div class="box animate">
+            <img src="img/rest4.jpg" alt="yard2" />
           </div>
         </div>
-        <h2 class="animate">
+        <h2 class="animate" data-i18n="opinions.title">
+          Մեր այցելուների կարծիքները
+        </h2>
+        <div class="wrapper wrapper-opinions">
+          <div class="box animate">
+            <img src="img/opinion1.jpg" alt="opinion1" />
+          </div>
+          <div class="box animate">
+            <img src="img/opinion2.jpg" alt="opinion1" />
+          </div>
+        </div>
+
+        <h2 class="animate" data-i18n="sights.title">
           Ձեր հանգիստը դարձրեք անմոռանալի՝ այցելելով Դսեղի լավագույն տեսարժան
           վայրեր
         </h2>
-        <p class="animate">
+        <p class="animate" data-i18n="sights.text1">
           <strong
             >Բացահայտեք Դսեղը՝ Թումանյանի տուն-թանգարանից մինչև հնագույն
             վանքերը։</strong
@@ -210,7 +275,7 @@
           միջնադարյան վանքերի ճարտարապետությամբ և վայելեք բնության անզուգական
           գեղեցկությունը։
         </p>
-        <p class="animate">
+        <p class="animate" data-i18n="sights.text2">
           <strong
             >Անմոռանալի լուսանկարներ, խաղաղ զբոսանք և ներշնչող միջավայր՝</strong
           >
@@ -220,48 +285,59 @@
       </div>
       <div class="wrapper sightworthy">
         <div class="box animate">
-          <a href="https://dsegh.am/hy/hovhannes-tumanyan-house-museum"
-            >ՀՈՎ. ԹՈՒՄԱՆՅԱՆԻ <br />
-            ՏՈՒՆ֊ԹԱՆԳԱՐԱՆ<img
+          <a href="https://dsegh.am/hy/hovhannes-tumanyan-house-museum">
+            <span data-i18n="sightworthy.title"
+              >ՀՈՎ. ԹՈՒՄԱՆՅԱՆԻ <br />
+              ՏՈՒՆ֊ԹԱՆԳԱՐԱՆ</span
+            >
+            <img
               src="img/tangaran.jpg"
               alt="Հովհաննես Թումանյանի տուն թանգարան"
           /></a>
         </div>
 
         <div class="box animate">
-          «ԴՍԵՂԻ ԾՈՎԵՐ» <br />
-          ԼԻՃ
           <a href="https://dsegh.am/hy/tsover-lake">
+            <span data-i18n="sightworthy.title2"
+              >«ԴՍԵՂԻ ԾՈՎԵՐ» <br />
+              ԼԻՃ</span
+            >
             <img src="img/cover.jpg" alt="Ծովեր լիճ"
           /></a>
         </div>
         <div class="box animate">
           <a href="https://dsegh.am/hy/bardzrakash-st-gregory-monastery"
-            >ՍՈՒՐԲ ԳՐԻԳՈՐ <br />
-            ԲԱՐՁՐԱՔԱՇ
-            <img
-              src="img/saint-gregory-monastery-dsegh.jpg"
-              alt="Սուրբ Գրիգոր"
+            ><span data-i18n="sightworthy.title3"
+              >ՍՈՒՐԲ ԳՐԻԳՈՐ <br />
+              ԲԱՐՁՐԱՔԱՇ</span
+            >
+            <img src="img/saint-gregory-monastery-dsegh.jpg" alt="Սուրբ Գրիգոր"
           /></a>
         </div>
         <div class="box animate">
-          <a href="https://dsegh.am/hy/forty-children-monastery"
-            >ՔԱՌԱՍՆԻՑ ՄԱՆԿԱՆՑ <br />
-            ՎԱՆՔ <img src="img/karasnits-mankants.jpg" alt="Քառասնից Մանկանց"
-          /></a>
+          <a href="https://dsegh.am/hy/forty-children-monastery">
+            <span data-i18n="sightworthy.title4">
+              ՔԱՌԱՍՆԻՑ ՄԱՆԿԱՆՑ <br />
+              ՎԱՆՔ
+            </span>
+            <img src="img/karasnits-mankants.jpg" alt="Քառասնից Մանկանց" />
+          </a>
         </div>
         <div class="box animate">
           <a href="https://dsegh.am/hy/sirun-khach"
-            >«ՍՈՒՐԲ ՏԵՐՈՒՆԱԿԱՆ» <br />
-            ԿԱՄ «ՍԻՐՈՒՆ ԽԱՉ»
+            ><span data-i18n="sightworthy.title5"
+              >ՍՈՒՐԲ ՏԵՐՈՒՆԱԿԱՆ <br />
+              ԿԱՄ «ՍԻՐՈՒՆ ԽԱՉ»</span
+            >
             <img src="img/Sirun_Khach.webp" alt="Սուրբ Տերունական"
           /></a>
         </div>
         <div class="box animate">
           <a href="https://dsegh.am/hy/all-saver-cross-stone">
-            ԽԱՉԵԼՈՒԹՅԱՆ <br />
-            (ԱՄԵՆԱՓՐԿԻՉ) ԽԱՉՔԱՐ
-            <img src="img/Saver_Cross_Ston.webp" alt="Ամենափրկիչ"
+            <span data-i18n="sightworthy.title6"
+              >ԽԱՉԵԼՈՒԹՅԱՆ <br />
+              (ԱՄԵՆԱՓՐԿԻՉ) ԽԱՉՔԱՐ</span
+            ><img src="img/Saver_Cross_Ston.webp" alt="Ամենափրկիչ"
           /></a>
         </div>
       </div>
@@ -274,18 +350,20 @@
       <div class="bg-footer" id="contact">
         <div class="container">
           <div class="contacts-header">
-            <h2>Օրիոն հյուրատուն</h2>
-            <a 
+            <h2 data-i18n="hero.title">Օրիոն հյուրատուն</h2>
+            <a
               href="https://www.google.com/maps/search/?api=1&query=Դսեղ+Լոռի+Հայաստան"
               target="_blank"
-              ><span class="iconLabel">ՀՀ, լոռու մարզ, գյուղ Դսեղ</span>
+              ><span class="iconLabel" data-i18n="footer.address"
+                >ՀՀ, լոռու մարզ, գյուղ Դսեղ</span
+              >
               <i class="fa-solid fa-location-dot"></i>
             </a>
           </div>
 
           <div class="contacts-grid">
             <div class="contact-column">
-              <h3>Հետևեք մեզ</h3>
+              <h3 data-i18n="footer.follow">Հետևեք մեզ</h3>
               <div class="social-links">
                 <a
                   href="https://www.facebook.com/orion.hyuratun.taxavar.dseghum"
@@ -300,26 +378,26 @@
             </div>
 
             <div class="contact-column">
-              <h3>Զանգեք մեզ</h3>
+              <h3 data-i18n="footer.call">Զանգեք մեզ</h3>
               <p>
-                
                 <a
                   href="https://wa.me/3740000000"
                   target="_blank"
                   rel="noopener noreferrer"
-                  ><i class="fas fa-phone-alt"></i><span class="iconLabel">(+374)77474851</span></a
+                  ><i class="fas fa-phone-alt"></i
+                  ><span class="iconLabel">(+374)77474851</span></a
                 >
               </p>
             </div>
 
             <div class="contact-column">
-              <h3>Գրեք մեզ</h3>
+              <h3 data-i18n="footer.write">Գրեք մեզ</h3>
               <p>
-                
                 <a
                   href="https://mail.google.com/mail/?view=cm&fs=1&to=armine.aghajanyan123@gmail.com&su=Ամրագրման հայտ - Օրիոն հյուրատուն&body=Բարև ձեզ,%0A%0AՑանկանում եմ ամրագրել - %0AԱնուն - %0AՀեռախոս - %0AԺամանման ամսաթիվ -%0AՄեկնելու ամսաթիվ - %0AՀյուրերի քանակ - %0A%0AՇնորհակալություն։"
                   target="_blank"
-                  ><i class="fas fa-envelope"></i><span class="iconLabel">armine.aghajanyan123@gmail.com</span>
+                  ><i class="fas fa-envelope"></i
+                  ><span class="iconLabel">armine.aghajanyan123@gmail.com</span>
                 </a>
               </p>
             </div>
@@ -328,6 +406,7 @@
       </div>
     </footer>
 
+    <script src="./translations.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

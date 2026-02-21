@@ -112,6 +112,7 @@ html {
 }
 
 .hero {
+  position: relative;
   background-image: url("img/yard.jpeg");
   background-size: cover;
   background-position: center;
@@ -119,6 +120,15 @@ html {
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+.hero-title {
+  margin-top: 100px;
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
 }
 
 .hero-p {
@@ -142,6 +152,31 @@ html {
   border-radius: 17px;
   border: 3px solid #fff;
   transition: background-color 0.3s ease;
+}
+
+.lang-switcher {
+  font-size: 1.4rem;
+  display: flex;
+  gap: 10px;
+  font-weight: 400;
+  cursor: pointer;
+  color: #fff;
+}
+
+.lang-switcher .lang {
+  padding: 4px 8px;
+}
+
+.lang-switcher .lang.active {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
+.lang-container {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  transform: translateX(-50%);
 }
 
 .hrThin {
@@ -228,6 +263,18 @@ html {
   border-radius: 15px;
   margin-bottom: 15px;
   margin-top: 10px;
+}
+
+.wrapper-pavilion .box img {
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.wrapper-opinions .box img {
+  height: auto;
+  object-fit: cover;
+  display: block;
 }
 
 .pavilion-title {
@@ -343,6 +390,10 @@ html {
     display: flex;
     align-items: center;
     gap: 40px;
+  }
+
+  .contact-column h3 {
+    width: 150px;
   }
 }
 
