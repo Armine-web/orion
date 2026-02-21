@@ -175,7 +175,7 @@ html {
 .lang-container {
   position: absolute;
   left: 50%;
-  top: 20px;
+  top: 50px;
   transform: translateX(-50%);
 }
 
