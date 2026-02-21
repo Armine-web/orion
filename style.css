@@ -376,6 +376,7 @@ html {
   transform: rotate(90deg);
 }
 
+
 @media (min-width: 1600px) {
   .container {
     max-width: 1400px;
@@ -477,5 +478,11 @@ html {
 
   .iconLabel {
     display: none;
+  }
+
+  .contact-column .tell-info{
+    display: flex;
+    align-items: center;
+    gap: 40px;
   }
 }
