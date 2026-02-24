@@ -1,7 +1,8 @@
 const translations = {
   hy: {
     hero: {
-      title: "Օրիոն հյուրատուն",
+      title: "Հյուրատուն Դսեղում",
+      title1: "Օրիոն",
       text1:
         "Բարի գալուստ Օրիոն հյուրատուն, որը գտնվում է Լոռու մարզի գեղեցիկ Դսեղ գյուղում։ Մենք առաջարկում ենք հարմարավետ և ջերմ միջավայր՝ ձեր հանգիստը հաճելի դարձնելու համար։",
       text2:
@@ -65,7 +66,8 @@ const translations = {
 
   en: {
     hero: {
-      title: "Orion Guesthouse",
+      title: "Guesthouse in Dsegh",
+      title1: "Orion",
       text1:
         "Welcome to Orion Guesthouse located in the beautiful village of Dsegh in the Lori region. We offer a warm and comfortable environment for your perfect отдых.",
       text2:
@@ -128,7 +130,8 @@ const translations = {
 
   ru: {
     hero: {
-      title: "Гостевой дом Орион",
+      title: "Гостевой дом в Дсехе",
+      title1: "Орион",
       text1:
         "Добро пожаловать в гостевой дом Орион, расположенный в живописном селе Дсех Лорийской области.",
       text2:
