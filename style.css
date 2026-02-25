@@ -404,8 +404,13 @@ html {
 }
 
 @media (max-width: 768px) {
+  .lang-container{
+    top: 20px;
+  }
+  
   .hero-title {
     font-size: 2.2rem;
+    margin-top: 10px;
   }
 
   h2 {
