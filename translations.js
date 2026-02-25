@@ -60,7 +60,7 @@ const translations = {
       follow: "Հետևեք մեզ",
       call: "Զանգեք մեզ",
       write: "Գրեք մեզ",
-      address: "ՀՀ, Լոռու մարզ, գյուղ Դսեղ",
+      address: "ՀՀ, լոռու մարզ, գյուղ Դսեղ, 2-րդ փողոց, 14 տուն",
     },
   },
 
@@ -124,7 +124,7 @@ const translations = {
       follow: "Follow us",
       call: "Call us",
       write: "Write to us",
-      address: "Dsegh village, Lori region, Armenia",
+      address: "Dsegh village, 2nd street, house 14, Lori region, Armenia",
     },
   },
 
@@ -188,7 +188,7 @@ const translations = {
       follow: "Подписывайтесь",
       call: "Позвоните нам",
       write: "Напишите нам",
-      address: "Армения, Лорийская область, село Дсех",
+      address: "Армения, Лорийская область, село Дсех, 2-я улица, дом 14",
     },
   },
 };
