@@ -13,7 +13,8 @@ const translations = {
     },
 
     rooms: {
-      title: "Սենյակներ",
+      title: "Օրիոն՝ հեքիաթային հանգիստ Լոռիում",
+      title1: "Հարմարավետ հյուրատուն Դսեղում",
       description1:
         "Հարմարավետ և լուսավոր սենյակներ՝ համալրված բոլոր անհրաժեշտ հարմարություններով՝ հանգստի և արդյունավետ աշխատանքային այցերի համար։",
       description2:
@@ -78,7 +79,8 @@ const translations = {
     },
 
     rooms: {
-      title: "Rooms",
+      title: "Orion — Historic Retreat in Lori",
+      title1: "Comfortable Guesthouse in Dsegh",
       description1:
         "Comfortable and bright rooms equipped with all necessary amenities for both leisure and business stays.",
       description2:
@@ -142,7 +144,8 @@ const translations = {
     },
 
     rooms: {
-      title: "Номера",
+      title: "Орион — Исторический курорт в Лори",
+      title1: "Удобный гостевой дом в Дсехе",
       description1:
         "Светлые и комфортные номера со всеми необходимыми удобствами.",
       description2:
